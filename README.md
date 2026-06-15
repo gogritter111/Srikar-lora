@@ -116,7 +116,7 @@ Sample outputs are in the `/samples` directory. Key observations:
 - **Flow matching scheduler is critical** — using DDPM schedulers with FLUX produces poor results
 - **Caption quality matters more than quantity** — 21 well-captioned images outperforms 50 poorly captioned ones
 - **Multi-resolution training** improves generalization across different aspect ratios
-- **T4 (14.5GB VRAM) cannot run FLUX LoRA training** — minimum 24GB required even with quantization
+- **FLUX LoRA training** — minimum 24GB required even with quantization
 
 ---
 
